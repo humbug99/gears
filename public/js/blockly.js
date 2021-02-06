@@ -37,7 +37,8 @@ var blockly = new function() {
     };
 
     const script = document.createElement('script');
-    script.src = 'blockly/3.20200402.1/msg/' + LANG + '.js';
+    //script.src = 'blockly/3.20200402.1/msg/' + LANG + '.js';
+    script.src = 'blockly/4.20201217.0/msg/' + LANG + '.js';
     script.addEventListener('load', function() {
       self.loadCustomBlocks()
         .then(self.loadToolBox)
